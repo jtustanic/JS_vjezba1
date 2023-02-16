@@ -20,5 +20,5 @@ text = text.toLocaleLowerCase();
 text = text.trim();
 //console.log(text);
 
-var aa = text.charAt(2);
-console.log(text.charAt(2));
+var aa = text.charAt(5);
+console.log(text.charAt(5));
