@@ -1,24 +1,16 @@
-var firstName, lastName, price, discount, fullPrice;
+var tablica = "<table border=1>\n";
 
-firstName = "John";
-lastName = "Doe";
-price = 19.9;
-discount = 0.1;
 
-var x = 1; //uvedi mi varijablu x = 1
-if (x == 1) {
-  //provjeravamo ako je x = 1
-  x = 2; //dodjeljivanje vrijednosti
+for(var i = 1; i<=15; i++){
+ // console.log("iteracija: " + i);
+  tablica += "<tr>\n" +
+                "<td>Name " + i + "</td>\n" +
+                "<td>Rank " + i + " </td>\n" +
+                "<td>Class " + i + " </td>\n" +
+           "</tr>\n";
 }
 
-var a = true;
-if (a) {
-  var z = 44;
-  return 0;
-}
+tablica += "</table>"; //+= skraceni izraz da dodajemo nesto na prethodni izraz
+console.log(tablica);
 
-if (discount != 0) {
-  fullPrice = (price * 100) / discount;
-} else {
-  fullPrice = price;
-}
+document.write(tablica);
