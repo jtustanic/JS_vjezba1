@@ -1,3 +1,5 @@
+//Rad sa tekstom - stringovi
+
 var text = 'Dodajem nekakav tekst eto tak malo      ';
 
 var length = text.length;
@@ -13,8 +15,10 @@ var newText = text + ', jos bih ja tu malo teksta';
 //console.log(newText);
 
 text = text.toLocaleLowerCase();
-console.log(text);
+//console.log(text);
 
 text = text.trim();
 //console.log(text);
 
+var aa = text.charAt(2);
+console.log(text.charAt(2));
