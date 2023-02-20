@@ -1,6 +1,6 @@
 //Rad sa tekstom - stringovi
 
-var text = 'Dodajem nekakav tekst eto tak malo      ';
+/*var text = 'Dodajem nekakav tekst eto tak malo      ';
 
 var length = text.length;
 //console.log("duljina teksta = " + length);
@@ -22,3 +22,4 @@ text = text.trim();
 
 var aa = text.charAt(5);
 console.log(text.charAt(5));
+*/
