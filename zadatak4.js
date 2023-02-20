@@ -18,9 +18,9 @@ if (z === 2) {
 //kako znati je li broj paran ili neparan
 for (var i = 1; i <=20; i++) {
     if(i % 2 == 0){
-        console.log("Broj " + i + " je paran")
+        console.log("Broj " + i + " je paran");
     }
     else{
-        console.log("Broj " + i + " je neparan")
+        console.log("Broj " + i + " je neparan");
     }
 }
